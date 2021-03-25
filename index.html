@@ -475,8 +475,8 @@
           </div>
 
           <div class="testimonial-item">
-            <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-            <h3>Jena Karlis</h3>
+            <img src="assets/img/testimonials/shaq photo_2021-03-25_10-42-24.jpg" class="testimonial-img" alt="">
+            <h3>Sadique ali</h3>
             <h4>Store Owner</h4>
             <p>
               <i class="bx bxs-quote-alt-left quote-icon-left"></i>
@@ -486,8 +486,8 @@
           </div>
 
           <div class="testimonial-item">
-            <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-            <h3>John Larson</h3>
+            <img src="assets/img/testimonials/ans photo_2021-03-25_10-23-02.jpg" class="testimonial-img" alt="">
+            <h3>Anas Mohammed</h3>
             <h4>Entrepreneur</h4>
             <p>
               <i class="bx bxs-quote-alt-left quote-icon-left"></i>
@@ -540,7 +540,7 @@
             <form action="forms/contact.php" id="submit-form" method="post" role="form" class="php-email-form">
               <div class="form-row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control"  id="name" placeholder="Your Name" onkeypress="ValidationOfName()" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required />
+                  <input type="text" name="name" class="form-control"  id="name" placeholder="Your Name" onkeypress="ValidationOfName()" data-rule="minlen:4" data-rule="/^[a-zA-Z\s]+$/" data-msg="Please enter at least 4 chars" required />
                   <span id="NameRequired" style="color: red; display: none; ">Please Enter your Name</span>
                   <span id="NameError" style="color: red; display: none; ">Only letters are allowed</span>
                   <div class="validate"></div>
@@ -555,7 +555,7 @@
                 <div class="validate"></div>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:8" data-msg="Please enter at least 8 chars of subject" required />
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"   required />
                 <div class="validate"></div>
               </div>
               <div class="form-group">
